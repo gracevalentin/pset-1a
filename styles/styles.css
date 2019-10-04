@@ -1,0 +1,65 @@
+* {
+color: #3D2F69;
+background: #98FB98;
+}
+
+h1 {
+     text-align: center;
+}
+
+h2 {
+     text-align: center;
+}
+
+h3 {
+     text-align: center;
+}
+
+h4 {
+     text-align: center;
+}
+
+h5 {
+     text-align: center;
+}
+
+h6 {
+     text-align: center;
+}
+
+p {
+     text-align: center;
+}
+
+header {
+     text-align: center;
+}
+
+footer {
+     text-align: center;
+}
+
+img {
+     text-align: center;
+}
+
+
+
+header img {
+    height: 80px;
+}
+body {
+    height: 125vh;
+  }
+main {
+    color: white;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
