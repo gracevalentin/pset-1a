@@ -3,7 +3,7 @@ color: #FC9483;
 }
 
 * {
-font-family: monospace;
+font-family: sans-serif;
 }
 
 h1 {
@@ -22,6 +22,18 @@ header {
      text-align: center;
 }
 
+ul {
+     text-align: center;
+}
+
+li {
+     text-align: center;
+}
+
+table {
+     text-align: center;
+}
+
 div {
      text-align: center;
 }
@@ -30,39 +42,29 @@ footer {
      text-align: center;
 }
 
-img {
-     text-align: center;
-}
-
 header {
-    height: 80px;
-}
-body {
-    height: 125vh;
-  }
-main {
-    color: white;
-}
-
-header {
+    padding: 12px 70px 10px;
     background-color: #FC4C4E;
-    position: fixed;
+    position: relative;
     top: 80;
-    left: 80;
-    right: 80;
-    height: 80px;
+    left: 150;
+    right: 150;
+    height: 35px;
     text-align: center;
+    font-size: 1.8em;
+    text-shadow: 3px 3px 5px;
+    font-style: italic;
+    letter-spacing: 3px
 }
 
-#container {
-    background-color:grey;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
+p {padding: 0px 150px 0px}
 
-.topnav {
-  text-align: center;
+table {padding: 10px 10px 10px}
+
+
+table.center {
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 .center {
