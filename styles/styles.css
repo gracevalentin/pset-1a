@@ -1,8 +1,5 @@
 * {
 color: #FC9483;
-}
-
-* {
 font-family: sans-serif;
 }
 
@@ -72,4 +69,16 @@ table.center {
   margin-left: auto;
   margin-right: auto;
   width: inherit;
+}
+
+a:hover {
+  color: green;
+}
+
+a[title] {
+    color: green;
+}
+
+div tbody td{
+  color:green
 }
