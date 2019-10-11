@@ -1,5 +1,5 @@
 * {
-color: #FC9483;
+color: #ff7a75;
 font-family: sans-serif;
 }
 
@@ -15,19 +15,7 @@ p {
      text-align: center;
 }
 
-header {
-     text-align: center;
-}
-
-ul {
-     text-align: center;
-}
-
 li {
-     text-align: center;
-}
-
-table {
      text-align: center;
 }
 
@@ -35,13 +23,9 @@ div {
      text-align: center;
 }
 
-footer {
-     text-align: center;
-}
-
 header {
     padding: 12px 70px 10px;
-    background-color: #FC4C4E;
+    background-color: #cc0256;
     position: relative;
     top: 80;
     left: 150;
@@ -49,15 +33,14 @@ header {
     height: 35px;
     text-align: center;
     font-size: 1.8em;
-    text-shadow: 3px 3px 5px;
+    text-shadow: 3px 3px 5px black;
     font-style: italic;
     letter-spacing: 3px
 }
 
 p {padding: 0px 150px 0px}
 
-table {padding: 10px 10px 10px}
-
+.real-data {padding: 10px 10px 10px}
 
 table.center {
   margin-left: 30%;
@@ -71,14 +54,35 @@ table.center {
   width: inherit;
 }
 
+.big-title {
+  font-size: 40px;
+  text-shadow: 0 6px 4px #85c226,
+		     -3px -5px 4px #fe2192,
+		     3px -5px 4px #f7c200;
+  color: #112882
+}
+
 a:hover {
-  color: green;
+  color: #69CD1D;
 }
 
 a[title] {
-    color: green;
+    color: #69CD1D;
 }
 
 div tbody td{
-  color:green
+  color: #69CD1D
+}
+
+#section-1 {
+  color: #cc0256
+}
+
+#bottom-element {
+  text-align: center;
+font-style: italic;
+}
+
+#year-and-copyright {
+  color: #206B00
 }
